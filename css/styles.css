@@ -1,0 +1,295 @@
+@import url('reset.css');
+
+/* --------------- */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #212121;
+    letter-spacing: .9px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* --- HEADER ---*/
+
+.header {
+    padding: 24px 0 25px;
+    border-bottom: 1px solid #F2F2F2;
+    font-size: 14px;
+    font-weight: 500;
+} 
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: 93px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 50px;
+    margin-right: auto;
+}
+
+.header-menu-item a {
+    color: #212121;
+    text-decoration: none;
+}
+
+.header-menu-item a:hover {
+    color: #2196F3;
+}
+
+.header-menu-item a.active {
+    color: #2196F3;
+}
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.header-list-item a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.header-list-item a:hover {
+    color: #2196F3
+} 
+
+/* --- HERO ---*/
+
+.hero {
+	min-height: 600px;
+	background: #2f303a;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+.hero .container {
+	width: 100%;
+}
+.hero-box {
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+}
+.hero-title {
+	font-size: 44px;
+	line-height: 1.3;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 4px;
+	margin: 0 0 30px;
+}
+.hero-btn {
+	font-weight: 700;
+	color: #fff;
+	padding: 17px 46px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	background: #2196f3;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.hero-btn:hover {
+	background: #0f8cf1;
+}
+.hero-btn:active {
+	background: #4ea5ec;
+}
+
+
+/* ? DETAILS */
+.details {
+	padding: 94px 0;
+	font-size: 14px;
+}
+.details-cards {
+	display: flex;
+	gap: 30px;
+}
+.details-card {
+	flex: 1 1 20%;
+}
+.details-card-title {
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+}
+.details-card-desc {
+	color: #757575;
+}
+
+
+/* ? WORK */
+.work {
+	padding: 0 0 94px;
+}
+.work-title {
+	margin-bottom: 50px;
+}
+.work-cards {
+	display: flex;
+	gap: 30px;
+}
+.work-card {
+	flex: 1 1 30%;
+	height: 294px;
+}
+.work-card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+/* ? TEAM */
+.team {
+	padding: 94px 0;
+	background: #f5f4fa;
+}
+.team-title {
+	margin: 0 0 50px;
+}
+.team-cards {
+	display: flex;
+	gap: 30px;
+	text-align: center;
+}
+.team-card {
+	flex: 1 1 20%;
+	box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+	background: #fff;
+	padding: 0 0 30px;
+}
+.team-card-image {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	margin: 0 0 30px;
+}
+.team-card-title {
+	font-weight: 500;
+	margin: 0 0 10px;
+}
+.team-card-desc {
+	color: #757575;
+}
+
+
+/* ? FOOTER */
+
+.footer {
+    padding: 60px 0;
+    background: #2F303A;
+    font-size: 14px;
+}
+
+.footer-logo {
+    display: inline-block;
+	margin: 0 0 20px;
+}
+
+.footer-address {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 9px;
+}
+
+.footer-address p {
+    color: #FFF;
+}
+
+.footer-address a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* --- Portfolio --- */
+
+.hero-portfolio {
+    padding: 94px 0 50px; 
+    display: flex;
+    align-items: center;
+}
+
+.btn-hero-portfolio {
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+    color: #212121;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 6px 27px;
+    background: #f5f4fa;;
+}
+
+.btn-hero-portfolio:hover {
+	background: #0f8cf1;
+    color: #FFF;
+}
+
+.btn-hero-portfolio:active {
+	background: #4ea5ec;
+    color: #FFF;
+}
+
+/* --- SECTION --- */
+
+.cards {
+    margin: 40px -15px;
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card-flex {
+    margin: 40px -15px;
+    display: flex;
+    row-gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 0 1 33.333%;
+    padding: 0 15px;
+}
+
+.card-all {
+    border: 1px solid #eee;
+} 
+
+.card-all-img {
+    width: 100%;
+    height: 294px;
+    object-fit: cover;
+    margin: 0 0 20px;
+    
+}
+
+.card-all-titles {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 24px 4px;
+} 
+
+.card-all-descr {
+    color: #757575;
+    font-weight: 400;
+    margin: 0 24px 20px;
+}
